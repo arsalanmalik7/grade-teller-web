@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(1turn, #000000, #1a1919, #222222, #222222);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    width: 400px;
+    padding: 30px;
+    background-color: rgb(216, 221, 226, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+#h1 {
+    margin-left: 25rem;
+    color: black
+}
+
+#content {
+    width: 500px;
+    background-color: rgba(137, 163, 189, 0.5);
+    margin-left: 22.5rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.inputfield {
+    font-size: 1rem;
+    border: 2px solid rgb(44, 44, 150);
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    margin: 2rem;
+}
+
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #d1cece;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -5px -5px 12px #dfdcdc;
+}
+
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #cfcdcd,
+        inset -4px -4px 12px #e7e5e5;
+}
+label{
+    background-color: rgba(100, 50, 230, 1);
+    padding: 1rem;
+    border: 2px solid rgba(18, 173, 18, 1);
+    border-radius: 20px;
+} 
+

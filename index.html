@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADE CALCULAATOR</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+    <div id="h1">
+        <h1>GRADE CALCULAATOR</h1>
+    </div>
+
+    <div id="content">
+        <form onsubmit="gradeCalculator(); return false ">
+            <label for="totalMArks">TOTAL MARKS:</label>
+            <input step="1" class="inputfield" type="number" id="inputTotalMarks" required><br />
+
+
+
+            <label for="marks">YOUR MARKS:</label>
+            <input step="1" class="inputfield" type="number" id="inputYourMarks" required>&nbsp; &nbsp;
+            <button type="submit">Calculate</button>
+        </form>
+
+        <h1 id="result"></h1>
+    </div>
+
+    <script src="./gradeCalculator.mjs"></script>
+</body>
+
+</html> 
+
